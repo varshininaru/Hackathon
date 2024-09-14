@@ -1,0 +1,119 @@
+/* src/SearchBar.css */
+body {
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/20/49/46a5a7642955cadca2b96b1db0e85cd3.jpg'); /* Change this to the correct image path */
+    background-size: cover; /* Makes the image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment: fixed; /* Fix the background while scrolling */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+  }
+  .result-icon {
+    margin-right: 2000px;
+    margin-top: 05px;
+    color: white; /* Ensure icon color is white */
+    font-size: 18px; /* Adjust size if needed */
+  } 
+  .result-text {
+    display: flex;
+    flex-direction: column; /* Stack text elements vertically */
+    justify-content: flex-start; /* Align text elements to the top */
+    flex: 1; /* Allow text to take up the remaining space */
+  }
+  .search-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .search-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .search-input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    font-size: 18px;
+    color: gray;
+  }
+  
+  .search-input {
+    padding: 10px 10px 10px 40px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-results {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 50%;
+    height: 30%;
+    max-height: 300px; /* Limit the height of the results */
+    overflow-y: auto; /* Allow scrolling */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .search-item:hover {
+    background-color: tan; /* Background color on hover */
+  }
+  .no-results {
+    color: white;
+  }
+  
+  .search-item {
+    padding: 10px;
+    align-items: flex-start;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+.search-item:first-child {
+    background-color: tan; /* Background color for the first result */
+  }
+  .search-item:last-child {
+    border-bottom: none;
+    color: white;
+  }
+  
+  .search-item h3 {
+    margin-top: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .search-item p {
+    margin: 5px 0;
+    color: white;
+  }
+  
+  /* Optional: Customize the scrollbar */
+  .search-results::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .search-results::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .search-results::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
