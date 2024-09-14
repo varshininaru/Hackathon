@@ -12,7 +12,7 @@ const SearchBar = () => {
   };
 
   const handleItemClick = (index) => {
-    setExpandedIndex(index === expandedIndex ? null : index); // Toggle expansion
+    setExpandedIndex(index === expandedIndex ? null : index); 
   };
 
   const filteredCountries = searchTerm.trim()

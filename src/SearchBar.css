@@ -1,10 +1,10 @@
 /* src/SearchBar.css */
 body {
     background-image: url('https://png.pngtree.com/back_origin_pic/04/20/49/46a5a7642955cadca2b96b1db0e85cd3.jpg'); /* Change this to the correct image path */
-    background-size: cover; /* Makes the image cover the entire screen */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image from repeating */
-    background-attachment: fixed; /* Fix the background while scrolling */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     font-family: 'Arial', sans-serif;
   }
@@ -18,14 +18,14 @@ body {
   .result-icon {
     margin-right: 2000px;
     margin-top: 05px;
-    color: white; /* Ensure icon color is white */
-    font-size: 18px; /* Adjust size if needed */
+    color: white; 
+    font-size: 18px;
   } 
   .result-text {
     display: flex;
-    flex-direction: column; /* Stack text elements vertically */
-    justify-content: flex-start; /* Align text elements to the top */
-    flex: 1; /* Allow text to take up the remaining space */
+    flex-direction: column; 
+    justify-content: flex-start; 
+    flex: 1; 
   }
   .search-title {
     font-size: 24px;
@@ -65,14 +65,14 @@ body {
     vertical-align: middle;
     width: 50%;
     height: 30%;
-    max-height: 300px; /* Limit the height of the results */
-    overflow-y: auto; /* Allow scrolling */
+    max-height: 300px; 
+    overflow-y: auto; 
     border: 1px solid #ccc;
     border-radius: 5px;
     transition: background-color 0.3s;
   }
   .search-item:hover {
-    background-color: tan; /* Background color on hover */
+    background-color: tan; 
   }
   .no-results {
     color: white;
@@ -85,7 +85,7 @@ body {
   }
   
 .search-item:first-child {
-    background-color: tan; /* Background color for the first result */
+    background-color: tan; 
   }
   .search-item:last-child {
     border-bottom: none;
@@ -103,8 +103,7 @@ body {
     color: white;
   }
   
-  /* Optional: Customize the scrollbar */
-  .search-results::-webkit-scrollbar {
+    .search-results::-webkit-scrollbar {
     width: 8px;
   }
   
